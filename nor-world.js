@@ -28,6 +28,6 @@ const newWorld = {
   features
 }
 
-fs.writeFile("./world-new.json", JSON.stringify(newWorld), () => {
+fs.writeFile("./final/world.json", JSON.stringify(newWorld), () => {
   console.log("写入成功");
 });
